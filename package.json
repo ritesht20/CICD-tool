@@ -1,0 +1,20 @@
+{
+  "name": "CICD-tool",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "cli": "cli.js"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "husky": "^8.0.0",
+    "prettier": "2.6.2",
+    "pretty-quick": "^3.1.3"
+  }
+}
