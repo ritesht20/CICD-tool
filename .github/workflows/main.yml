@@ -35,4 +35,4 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           echo Test ---------------------> ${{ github.event.commits[0].message }}
-          curl -X GET https://jsonplaceholder.typicode.com/posts
+        # curl -s https://jsonplaceholder.typicode.com/posts
