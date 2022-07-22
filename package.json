@@ -10,7 +10,8 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "inquirer": "^8.2.4"
+    "inquirer": "^8.2.4",
+    "js-yaml": "^4.1.0"
   },
   "devDependencies": {
     "husky": "^8.0.0",
